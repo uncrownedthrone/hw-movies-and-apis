@@ -14,6 +14,21 @@ body {
   text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
+h1 {
+  margin: 1rem;
+  color: rgb(231, 98, 45);
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+div {
+  display: flex;
+  width: auto;
+  align-content: center;
+  flex-wrap: nowrap;
+  border-bottom: 5px solid rgb(231, 98, 45);
+  margin-bottom: 1rem;
+}
+
 li {
   list-style: none;
   margin: 1rem;
@@ -28,12 +43,6 @@ li {
   text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
-h1 {
-  margin: 1rem;
-  color: rgb(231, 98, 45);
-  text-shadow: 0 0 3px black, 0 0 5px black;
-}
-
 img {
   display: flex;
   align-content: center;
@@ -41,15 +50,6 @@ img {
   margin-right: 0.5rem;
   margin-bottom: 1rem;
   border-radius: 3px;
-}
-
-div {
-  display: flex;
-  width: auto;
-  align-content: center;
-  flex-wrap: nowrap;
-  border-bottom: 5px solid rgb(231, 98, 45);
-  margin-bottom: 1rem;
 }
 
 .releaseDate {
