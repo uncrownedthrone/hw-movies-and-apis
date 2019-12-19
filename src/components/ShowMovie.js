@@ -8,7 +8,6 @@ const MovieAPIInfo = () => {
     const resp = await axios.get(
       `https://api.themoviedb.org/3/discover/movie?primary_release_year=1985&sort_by=popularity.desc&api_key=17cb5378f871124dfc852a9d103647e3`
     )
-    console.log(resp)
     setMovies(
       resp.data.results.sort((a, b) => {
         if (a.title > b.title) {
@@ -20,9 +19,6 @@ const MovieAPIInfo = () => {
         }
       })
     )
-    // const data = await resp.json() <-- not needed becuase axios
-    // ASSUMES that the data it's getting back is json unless
-    // you tell it otherwise. fetch doesn't assume anything
   }
 
   useEffect(() => {
