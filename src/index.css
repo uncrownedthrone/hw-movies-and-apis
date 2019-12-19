@@ -20,12 +20,20 @@ h1 {
   text-shadow: 0 0 3px black, 0 0 5px black;
 }
 
-div {
+.movieDataPage {
   display: flex;
   width: auto;
   align-content: center;
   flex-wrap: nowrap;
   border-bottom: 5px solid rgb(231, 98, 45);
+  margin-bottom: 1rem;
+}
+
+div {
+  display: flex;
+  width: auto;
+  align-content: center;
+  flex-wrap: nowrap;
   margin-bottom: 1rem;
 }
 

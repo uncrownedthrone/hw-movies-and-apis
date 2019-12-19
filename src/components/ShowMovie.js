@@ -6,7 +6,7 @@ const MovieAPIInfo = () => {
   const [movies, setMovies] = useState([])
   const getMovieData = async () => {
     const resp = await axios.get(
-      `https://api.themoviedb.org/3/discover/movie?primary_release_year=1989&sort_by=release_date.desc&api_key=17cb5378f871124dfc852a9d103647e3`
+      `https://api.themoviedb.org/3/discover/movie?primary_release_year=1985&sort_by=popularity.desc&api_key=17cb5378f871124dfc852a9d103647e3`
     )
     console.log(resp)
     setMovies(
@@ -31,7 +31,7 @@ const MovieAPIInfo = () => {
 
   return (
     <>
-      <h1>BEST MOVIES of 1989</h1>
+      <h1>BEST MOVIES of 1985</h1>
       <div>
         <ul>
           {movies.map(movie => {
