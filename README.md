@@ -1,4 +1,5 @@
 # Movies and APIs
+## Deployed using Netlify: https://js-movies-and-apis.netlify.com
 
 This assignment was one of our first looks at using a publicly available API to pull in movie information and display it on our page.
 
@@ -11,5 +12,3 @@ Technologies Used:
 - RESTful API
 - HTML
 - CSS
-
-Deployed using Netlify: https://hw-movies-and-apis-justin.netlify.com
