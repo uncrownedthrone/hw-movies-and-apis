@@ -65,7 +65,7 @@ img {
   font-size: 0.75rem;
 }
 
-@media only screen and (min-width: 414px) {
+@media (max-width: 414px) {
   h1 {
     color: rgb(231, 98, 45);
     text-shadow: 0 0 3px black, 0 0 5px black;
